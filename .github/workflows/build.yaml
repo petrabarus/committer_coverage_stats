@@ -57,7 +57,7 @@ jobs:
           fi
           echo "PACKAGE_VERSION=$VERSION" >> $GITHUB_ENV
           echo $VERSION > VERSION
-          echo "__version__ = \"$VERSION\"" > src/openapi_qase_suite_generator/__version.py
+          echo "__version__ = \"$VERSION\"" > src/committer_coverage_stats/__version.py
 
       - name: Build
         env:
